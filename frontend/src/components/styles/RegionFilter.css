@@ -1,0 +1,17 @@
+/* src/components/styles/RegionFilter.css */
+.region-filter {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    width: 15rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+
+  .region-filter option{
+    font-size: 16px;
+
+  }
+  

@@ -1,0 +1,178 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* src/App.css */
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+/* CountryDetails.css */
+
+/* .country-details-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.country-back-button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.country-flag {
+  width: 200px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.country-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.country-info p {
+  margin: 0.4rem 0;
+}
+
+.country-info strong {
+  color: #333;
+}
+
+.country-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.country-link:hover {
+  text-decoration: underline;
+} */
+
+
+/* CountryDetailsAlt.css */
+
+.country-details-wrapper {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+.back-button {
+  margin-bottom: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  float: left;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.country-flag {
+  width: 50%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.country-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.detail-item {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+}
+
+.detail-item strong {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #555;
+}
+
+a.map-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a.map-link:hover {
+  text-decoration: underline;
+}
