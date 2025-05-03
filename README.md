@@ -6,27 +6,36 @@ A web application called the REST Countries API using React enables users to loo
 The application is a cutting-edge and effective way to use the REST Countries API because it was developed with React and React Hooks.
 Use client-side routing with React Router to move between pages.
 
-## Features
-- All screens responsive
-- Search filter
-- Region / Continents filter
+## 🚀 Features
+- 🔎 **Search Countries** by name
+- 🌐 **Filter by Region** (Africa, Americas, Asia, Europe, Oceania)
+- 📄 **Detailed View** of each country (capital, population, currencies, etc.)
+- 📱 **Responsive Design** for all screen sizes
 
 
-## 🔧Tech Used
-- React / Vite
-- React Router
-- React Hooks
+## 🔧 Tech Stack
+- **Frontend** : React / Vite
+- **API** : [Rest Countries](https://restcountries.com/)
+- **Styling** : CSS3
 
-## Screenshots
+## 🖼 Screenshots
 ![HomePage](/frontend/src/assets/HomePage.png)
-![CountrySearch](/frontend/src/assets/useSearch.png)
-![CountryDetails](/frontend/src/assets/details.png)
+![CountrySearch](/frontend/src/assets/Search.png)
+![CountryDetails](/frontend/src/assets/CountryDetail.png)
 
-## 📥How to install
-- clone the repository
-    - git clone (https://github.com/it22188236/Rest-Country)
-- cd frontend 
-- npm install
-- npm run dev
+## 📦 Installation
+
+# Clone the repository
+    - git clone https://github.com/it22188236/Rest-Country
+
+# Move to the project folder
+    - cd frontend 
+
+# Install dependencies
+    - npm install
+ 
+# Start the application
+    - npm run dev
+
 
 
